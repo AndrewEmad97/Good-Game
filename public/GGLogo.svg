@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Dark background circle -->
+  <circle cx="32" cy="32" r="30" fill="#0f1117"/>
+
+  <!-- Subtle teal outer ring -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#14b8a6" stroke-width="1" opacity="0.5"/>
+  <!-- Amber inner ring -->
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#d97706" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- GG centered as a group -->
+  <text
+    x="32"
+    y="43"
+    font-family="Georgia, serif"
+    font-size="26"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="url(#ggGradient)"
+  >GG</text>
+
+  <!-- Split color via two tspans, centered together -->
+  <text
+    x="32"
+    y="43"
+    font-family="Georgia, serif"
+    font-size="26"
+    font-weight="bold"
+    text-anchor="middle"
+    fill="none"
+  >
+    <tspan fill="#d97706">G</tspan><tspan fill="#14b8a6">G</tspan>
+  </text>
+</svg>
